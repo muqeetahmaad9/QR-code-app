@@ -1,50 +1,18 @@
 <svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="QR Code Generator &amp; Scanner">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05020f"/>
-      <stop offset="55%" stop-color="#1a0533"/>
-      <stop offset="100%" stop-color="#2d0a4a"/>
-    </linearGradient>
-
-    <pattern id="mot" width="150" height="110" patternUnits="userSpaceOnUse">
-      <g fill="none" stroke="#f72585" stroke-width="1.2" opacity="0.26">
-        <rect x="12" y="14" width="46" height="38" rx="2"/>
-        <rect x="86" y="52" width="38" height="44" rx="2"/>
-        <rect x="52" y="70" width="26" height="26" rx="2"/>
-      </g>
-      <g fill="#b14aed" opacity="0.30" font-family="Consolas,monospace" font-size="8">
-        <text x="12" y="10">0.94</text><text x="86" y="48">0.88</text>
-      </g>
-    </pattern>
-    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#b14aed" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#b14aed" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#b14aed" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#05020f"/><stop offset="100%" stop-color="#22063f"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4" result="g"/>
+      <feGaussianBlur stdDeviation="3.6" result="g"/>
       <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-
   <rect width="900" height="200" fill="url(#bg)"/>
-  <rect width="900" height="200" fill="url(#mot)"/>
-  <rect width="900" height="34" fill="url(#scan)" opacity="0.5"/>
-
-  <g fill="none" stroke="#b14aed" stroke-width="2.4" opacity="0.85">
-    <path d="M22 52 V22 H52"/><path d="M848 22 H878 V52"/>
-    <path d="M22 148 V178 H52"/><path d="M848 178 H878 V148"/>
-  </g>
-
-  <text x="60" y="70" font-family="Consolas, 'Courier New', monospace" font-size="14"
-        fill="#f72585" opacity="0.78" letter-spacing="2.5">&gt; qr --generate --scan</text>
-
-  <text x="60" y="120" font-family="Consolas, 'Courier New', monospace"
-        font-size="38" font-weight="bold" fill="#f72585" filter="url(#glow)"
-        letter-spacing="2">QR Code Generator &amp; Scanner</text>
-
-  <text x="62" y="152" font-family="Consolas, 'Courier New', monospace"
-        font-size="15" fill="#b14aed" opacity="0.92" letter-spacing="1.2">Generate and decode QR codes in Python or Colab</text>
-
-  <rect x="60" y="164" width="150" height="2.5" fill="#f72585" opacity="0.85"/>
+  <line x1="70" y1="56" x2="170" y2="38" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="56" x2="170" y2="82" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="56" x2="170" y2="126" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="56" x2="170" y2="170" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="100" x2="170" y2="38" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="100" x2="170" y2="82" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="100" x2="170" y2="126" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="100" x2="170" y2="170" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="144" x2="170" y2="38" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="144" x2="170" y2="82" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="144" x2="170" y2="126" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="70" y1="144" x2="170" y2="170" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="38" x2="270" y2="56" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="38" x2="270" y2="100" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="38" x2="270" y2="144" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="82" x2="270" y2="56" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="82" x2="270" y2="100" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="82" x2="270" y2="144" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="126" x2="270" y2="56" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="126" x2="270" y2="100" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="126" x2="270" y2="144" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="170" x2="270" y2="56" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="170" x2="270" y2="100" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="170" y1="170" x2="270" y2="144" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="270" y1="56" x2="360" y2="100" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="270" y1="100" x2="360" y2="100" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/><line x1="270" y1="144" x2="360" y2="100" stroke="#3d1060" stroke-width="0.9" opacity="0.55"/>
+  <circle cx="70" cy="56" r="6.5" fill="#f72585" opacity="0.95"/><circle cx="70" cy="100" r="6.5" fill="#f72585" opacity="0.95"/><circle cx="70" cy="144" r="6.5" fill="#f72585" opacity="0.95"/><circle cx="170" cy="38" r="6.5" fill="#b14aed" opacity="0.95"/><circle cx="170" cy="82" r="6.5" fill="#b14aed" opacity="0.95"/><circle cx="170" cy="126" r="6.5" fill="#b14aed" opacity="0.95"/><circle cx="170" cy="170" r="6.5" fill="#b14aed" opacity="0.95"/><circle cx="270" cy="56" r="6.5" fill="#b14aed" opacity="0.95"/><circle cx="270" cy="100" r="6.5" fill="#b14aed" opacity="0.95"/><circle cx="270" cy="144" r="6.5" fill="#b14aed" opacity="0.95"/><circle cx="360" cy="100" r="6.5" fill="#f72585" opacity="0.95"/>
+  <text x="860" y="62" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="normal" fill="#f72585" opacity="0.85" text-anchor="end" letter-spacing="2">&gt; qr --generate --scan</text>
+  <text x="860" y="99" font-family="Consolas, 'Courier New', monospace" font-size="29" font-weight="bold" fill="#f72585" opacity="1.0" text-anchor="end" letter-spacing="1.4" filter="url(#glow)">QR Code Generator &amp; Scanner</text>
+  <text x="858" y="125" font-family="Consolas, 'Courier New', monospace" font-size="13.5" font-weight="normal" fill="#b14aed" opacity="0.92" text-anchor="end" letter-spacing="1.0">Generate and decode QR codes in Python or Colab</text>
+  <rect x="750" y="139" width="110" height="2.5" fill="#f72585"/>
 </svg>
