@@ -34,8 +34,8 @@ Generates QR codes from text, URLs or WiFi credentials, and decodes them from we
 
 ```bash
 pip install qrcode opencv-python pillow
-python "QR generator"
-python "QR scanner"
+python qr_generator.py
+python qr_scanner.py
 ```
 
 ### 👤 Author
